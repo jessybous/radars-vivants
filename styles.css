@@ -9,11 +9,11 @@ body {
 }
 
 .title{
-  color:#fff;
+  color:#D8B340;
   font-size:70px;
   max-width: 700px;
   align-self:center;
-  font-family:arial;
+  font-family:Times;
 }
 
 .hero{
@@ -27,22 +27,24 @@ body {
   background-size:cover;
 }
 
-p{
-  font-family:Arial, Helvetica, sans-serif;
+.description{
+  font-family:Times;
   color:#161616;
   font-size: 16px;
-  max-width:700px;
-  background-color: aqua;
+  background-color: #D8B340;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper{
-display: flex;
-align-items: center;
-justify-content: center;
-padding:20px;
+  max-width:700px;
+  padding:20px;
 
 }
 
 .video{
   width: 100%;
 }
+
+
